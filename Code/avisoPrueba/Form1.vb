@@ -20,7 +20,7 @@ Public Class Form1
         Try
             m = 1
             n = 0
-            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=inventumc762$")
+            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=$3rv3r5q10621%")
                 cnx.Open()
                 Using cmd As New SqlCommand()
                     cmd.Connection = cnx
